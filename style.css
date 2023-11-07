@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=MonteCarlo&family=Open+Sans:wght@300;400;500;600;800&family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;0,900;1,100;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background-color: #f0f0ed;
+}
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  height: 60px;
+  background-color: #333333;
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+}
+
+.emailcontent {
+  padding-bottom: 5px;
+}
+.tamil {
+  text-align: right;
+  color: white;
+}
+.translate {
+  color: #3b8dbd;
+  font-weight: 600;
+  cursor: pointer;
+}
+.translate:hover {
+  text-decoration: underline;
+  color: #3b8dbda3;
+}
+.above-navbar {
+  display: flex;
+  background-color: white;
+}
+.head-tittle {
+  display: block;
+  padding: 0 40px;
+}
+
+.h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 25px;
+}
+.h2 {
+  text-align: center;
+  font-size: 13px;
+}
+.esevai-tittle {
+  padding-top: 10px;
+  padding-left: 380px;
+}
+.e-Sevai-eng {
+  color: #008000;
+  font-size: 35px;
+  font-weight: 900;
+}
+.e-Sevai-tamil {
+  color: red;
+  font-weight: 600;
+}
+.navbar {
+  background-color: #008000;
+}
+.navbar > li {
+  display: flex;
+  justify-content: space-around;
+  padding: 17px 100px;
+}
+.nav-list > ul {
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+}
+.grid-template {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.tnmap-template {
+  width: 310px;
+  background-color: #ffffff;
+}
+.tittle {
+  color: white;
+  font-size: 17px;
+  padding: 7px;
+  font-weight: 600;
+  background-color: #008000;
+}
+.important-section {
+  width: 310px;
+  background-color: #ffffff;
+}
+.impor-tittle {
+  color: white;
+  font-size: 17px;
+  padding: 7px;
+  font-weight: 600;
+  background-color: #008000;
+}
+.impor-list > li {
+  color: rgba(0, 0, 0, 0.837);
+  font-size: 15px;
+  background-color: #ffffff;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.173);
+  list-style: none;
+}
+.latest-section {
+  width: 310px;
+  background-color: #ffffff;
+}
+.l-tittle {
+  color: white;
+  font-size: 17px;
+  padding: 7px;
+  font-weight: 600;
+  background-color: #008000;
+}
+.latest-list > li {
+  color: rgba(0, 0, 0, 0.78);
+  font-size: 13px;
+  background-color: #ffffff;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.173);
+  list-style: none;
+}
+.sign-in-section {
+  width: 310px;
+  background-color: #ffffff;
+}
+.sign-in-tittle {
+  color: white;
+  font-size: 17px;
+  padding: 7px;
+  font-weight: 600;
+  background-color: #008000;
+}
+.s-conatiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+  width: 280px;
+  color: white;
+  font-size: 15px;
+  padding: 7px;
+  font-weight: 600;
+  background-color: #008000;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+}
+#bt1 {
+  margin-top: 20px;
+}
+#bt2 {
+  margin-top: 40px;
+}
